@@ -1,0 +1,16 @@
+@mixin withHeight($with,$height:auto){
+    width: $with;
+    height: $height;
+}
+@mixin display($display,$direction,$justify,$aling){
+    display:$display;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $aling;
+}
+@mixin margin($top,$right,$botton,$left){
+    margin-top: $top;
+    margin-right: $right;
+    margin-bottom: $botton;
+    margin-left: $left;
+}

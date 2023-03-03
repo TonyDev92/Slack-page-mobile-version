@@ -1,0 +1,334 @@
+
+.mainbranch{ 
+    @include display(flex,row,flex-start,center);
+    flex-wrap: wrap;
+    @include withHeight(236vw);
+    background-color: #F4EDE4;
+    z-index: -1;
+    // final main branch general config
+    .companys{
+        margin-top: 10rem;
+        padding: 1px;
+        @include withHeight(200vh,30%);
+        .companys__h{
+            margin-top: 1rem;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size:x-large;
+            text-align: center;
+            text-overflow: clip;
+            text-rendering: optimizeLegibility;
+            font-weight: lighter;
+        }
+            .companys__logo{
+            @include display(flex,row,center,center);
+            flex-wrap: wrap;
+            @include withHeight(100%);
+            img{
+                @include withHeight(25%);
+            }
+        }
+    }
+}
+
+#nw{
+    width:40%;
+}
+// logosend
+// second article
+.videocontent{
+    display: flex;
+    background-color: #F4EDE4;
+    @include withHeight(100% ,100%);
+    .video__2{
+        display: flex;
+        @include withHeight(100%);
+        img{
+            z-index: +10;
+            margin-top: 5rem;
+            width: 100%;
+        }
+    }
+}
+// final second article
+// third article
+.team{
+    @include display(flex,column,center,stretch);
+    flex-wrap: wrap;
+    @include withHeight(100%);
+    background-color: #F4EDE4;
+    .teamcard{
+        padding: 1rem;
+        h6{ 
+        margin-bottom: 3rem;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size:15vw;
+        }
+    }
+}
+p{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+    font-size: 10vw;
+    font-weight: lighter;
+    text-rendering:optimizeLegibility;
+
+}
+.enlace{
+    @include withHeight(100%);
+    margin-top: 4px;
+    .enlace__platform{  
+        color:#1264A3;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size:10vw;
+        
+    }
+}
+// four article
+.video__3{
+    display: flex;
+    background-color: #F4EDE4;
+    @include withHeight(100%,100%);
+    img{
+        width: 100%;
+        
+    }
+    
+}
+.team__2{
+    background-color: #F4EDE4;
+    @include withHeight(100%);
+
+}
+.video__4{
+    display: flex;
+    background-color: #F4EDE4;
+    @include withHeight(100%);
+    img{
+        width: 100%;
+        
+    }
+}
+.team__3{
+    display:flex ;
+    background-color: #F4EDE4;
+    @include withHeight(100%,50%);
+}
+
+.team__white{
+    background-color: white;
+    @include display(flex,column,center,stretch);
+    flex-wrap: wrap;
+    background-size: cover;
+    @include withHeight(100%);
+    .team__white--config{
+        width: 100%;
+    }
+        h6{ 
+        margin-top:10rem;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size:15vw;
+        text-align: center;
+        }
+    .team__white--p{
+        margin-top: 5rem;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+.buttoncard__2{
+    margin-top: 5rem;
+    @include display(flex,column,center,center);
+    @include withHeight(100%);
+    display:flex;
+    .buttoncard__2--active{
+        @include display(flex,column,center,center);
+        @include withHeight(90%,15vh);
+        border-radius: 10px;
+        border:none;
+        background-color:#541554;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: whitesmoke;
+        font-size:xx-large;
+        margin:3px;
+        text-align: center;
+    }
+}
+button{
+    @include display(flex,column,center,center);
+    @include withHeight(90%,15vh);
+    border-radius: 10px;
+    border-color: #541554;
+    border-width: 3px;
+    background-color:whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:#541554;
+    font-size:xx-large;
+    margin:3px;
+    text-align: center;
+    
+}
+.porcentajes{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 5rem;
+    @include withHeight(100%);
+    .porcentajes__column{
+        color:#541554;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 20vh;
+    }
+}
+.porcentajes__column--paragraph{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:xx-large;
+    text-align: center;
+    padding: 2rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+.video__publi{
+    @include withHeight(100%,124vw);
+    display:flex;
+    margin-top: 10rem;
+    .video__publi--active{
+        @include withHeight(97%,100%);
+        border-top-right-radius: 500px;
+        border-bottom-right-radius: 500px;
+    }
+}
+.red{
+    width: 100%;
+    @include display(flex,column,center,center);
+    .red__card{
+        @include withHeight(70%);
+        text-align:justify;
+        margin-top: 6rem;
+        display: flex;
+        flex-direction: column;
+        .red__cardp{
+            font-size: 9vh;
+            font-style: italic;
+            color:gray;
+            margin-right: 2rem;
+            margin-left: 2rem;   
+        }
+    }
+}
+.name{
+    text-align: left;
+    margin-top: 2rem;
+    font-size: 5vh;
+}
+.name__span{
+    font-size: 5vh;
+}
+.link__cliente{
+    text-align: left;
+    font-size: 9vh;
+    text-decoration: none;
+    color: #1264A3;
+}
+.pcard{
+    margin-top: 5rem;
+    @include withHeight(100%);
+    .pcard__p{
+        text-align: center;
+        color:gray;
+        font-size: 5vh;
+        margin-right: 1rem;
+        margin-left: 1rem;
+    }
+}
+.crd{
+    @include withHeight(100%);
+    display: flex;
+    .card__s{
+        @include withHeight(100%);
+        @include display(flex,column,center,center);
+        background-color:#F4EDE4;
+        .card__slac{
+            @include display(flex,column,center,center);
+            @include withHeight(58%,100%);   
+            background-color: whitesmoke;
+            margin-bottom: 4rem;
+            .card__slack{
+                margin-top: 1rem;
+                @include withHeight(86%,60%);
+            }
+        }
+    }
+}
+.out__tittle{
+    font-size: 10vh;
+    text-align: center;
+    @include margin(3rem,2rem,2rem,1rem);
+}
+.inside__tittle{
+    font-size: 7vh;
+    text-align: left;
+    margin-left: 3rem;
+}
+.funciones{
+    text-align: left;
+    font-size: xx-large;
+    width: 80%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.examina{
+    text-align: left;
+    font-size: 5vh;
+    width: 90%;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    color:#1264A3;
+}
+.card__arc{
+    display:flex;
+    width: 100%;
+}
+.back{
+    background-color:white;
+    display:flex;
+    @include withHeight(100%,100vh);
+    .purplecard{
+        @include display(flex,column,center,center);
+        @include withHeight(100% , 90%);
+        background-color: #541554;
+        border-bottom-left-radius: 334em 76em;
+        border-bottom-right-radius: 434em 80em;
+        
+        .button__try{
+            margin-top: 1rem;
+            @include display(flex,flex-start,center,center);
+            @include withHeight(90%,15vh);
+            margin-bottom: 1rem;
+        }
+    }
+}
+.button__talk{
+    @include display(flex,flex-start,center,center);
+    @include withHeight(90%,15vh);
+    border-radius: 10px;
+    border-color:white;
+    border-width: 3px;
+    background-color:#541554;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:white;
+    font-size:xx-large;
+    margin:3px;
+    text-align: center;  
+    margin-bottom: 6rem;
+}
+
+.tittle__welcome{
+    display: flex;
+    justify-content: flex-start;
+    color:white;
+    font-size:10vh;
+    text-align: center;
+    width: 70%;
+    margin-top: 4rem;
+}

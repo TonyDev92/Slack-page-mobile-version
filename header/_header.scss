@@ -1,0 +1,102 @@
+
+.homme{
+    @include withHeight(236vw,180vh);
+    background-color: #541554;
+    z-index: -1;
+        .primaryContent{
+            @include withHeight(100%,10vh);
+        .logos{
+            @include display(flex,row,space-between,center);
+            @include withHeight(90%,10vh);
+            padding: 4px;
+            .logo{
+                align-items: center;
+                @include withHeight(20%);
+                @include margin(5rem,4rem,4rem,4rem);
+            
+        }
+    }
+        
+}
+
+
+.logo__2{
+    @include withHeight(10%);
+    margin-top: 1rem;
+}
+.intro{
+    @include display(flex,column,center,center);
+    @include withHeight(100%);
+    h1{
+        display: block;
+        margin-top: 5rem;
+        color:aliceblue;
+        width: 100%;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 10vh;
+        font-weight: lighter;
+        text-align: center;
+        .spantittle{
+            color:#ECB22E;
+            
+        }
+    }
+}
+.intro__card{
+    @include display(flex,column,center,normal);
+    flex-wrap: wrap;
+    @include withHeight(100%);
+}
+.headerp{
+    color:whitesmoke;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-size: 4vh;
+    padding: 1rem;
+    @include margin(-1rem,4rem,0rem,4rem);
+}
+.logogoogle{
+    @include withHeight(12vh);
+    margin-left:1rem;
+    border-radius: 10px;
+}
+.buttoncard{
+    @include display(flex,column,center,center);
+    @include withHeight(100%);
+    .register{
+        @include withHeight(90%,15vh);
+        border-radius: 10px;
+        border:none;
+        margin:1rem;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-size: larger;
+        color:#541554;
+        font-weight: lighter;
+    }
+}
+
+.register_2{
+    display:flex;
+    @include display(flex,row,flex-start,center);
+    @include withHeight(90%,15vh);
+    border-radius: 10px;
+    border:none;
+    background-color: #4285F4;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;
+    font-size: larger;
+    margin:3px;
+    text-align: center;
+    .googlebutton{
+        @include withHeight(73%);
+        text-align: center;
+    }
+}
+.videopicture{
+        @include withHeight(100% ,140vw);
+        display:flex;
+        img{
+        @include withHeight(100%);
+        }
+    } 
+}

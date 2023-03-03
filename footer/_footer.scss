@@ -1,0 +1,58 @@
+.foot{
+    display: flex;
+    @include display(flex,row,flex-start,center);
+    flex-wrap: wrap;
+    @include withHeight(236vw);
+    .foot__card{
+        @include withHeight(100%,100vh);
+        @include display(flex,row,flex-start,flex-start);
+        flex-wrap: wrap;
+    }
+}
+
+.logo__footer{
+    margin-bottom: 5rem;
+    width: 100%;
+    margin-left: 2rem;
+    .logo__footer--slack{
+        width: 10%;
+    }
+}
+.listas{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:x-large;
+    width: 25%;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+}
+.copyright{
+    @include withHeight(96%);
+    margin-left: 1rem;
+    display: flex;
+    border-top: 2px solid gray;
+    .lista{
+        font-size: xx-large;
+        margin-left: 1rem;
+        margin-top: 3rem;
+    }
+}
+.link__footer{
+    color:#1264A3;
+    margin-bottom: 1rem;
+}
+.logos__footer{
+    display: flex;
+    @include display(flex,row,space-between,center);
+    flex-wrap: wrap;
+    @include withHeight(100%);
+    .logos__footer--redes{
+        @include withHeight(7%);
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+}
+.copyp{
+    font-size: x-large;
+    text-align: center;
+    margin: 1rem;
+}

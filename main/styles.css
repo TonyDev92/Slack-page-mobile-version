@@ -1,0 +1,631 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.homme {
+  width: 236vw;
+  height: 180vh;
+  background-color: #541554;
+  z-index: -1;
+}
+.homme .primaryContent {
+  width: 100%;
+  height: 10vh;
+}
+.homme .primaryContent .logos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  height: 10vh;
+  padding: 4px;
+}
+.homme .primaryContent .logos .logo {
+  align-items: center;
+  width: 20%;
+  height: auto;
+  margin-top: 5rem;
+  margin-right: 4rem;
+  margin-bottom: 4rem;
+  margin-left: 4rem;
+}
+.homme .logo__2 {
+  width: 10%;
+  height: auto;
+  margin-top: 1rem;
+}
+.homme .intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+}
+.homme .intro h1 {
+  display: block;
+  margin-top: 5rem;
+  color: aliceblue;
+  width: 100%;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: 10vh;
+  font-weight: lighter;
+  text-align: center;
+}
+.homme .intro h1 .spantittle {
+  color: #ECB22E;
+}
+.homme .intro__card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: normal;
+  flex-wrap: wrap;
+  width: 100%;
+  height: auto;
+}
+.homme .headerp {
+  color: whitesmoke;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+  font-size: 4vh;
+  padding: 1rem;
+  margin-top: -1rem;
+  margin-right: 4rem;
+  margin-bottom: 0rem;
+  margin-left: 4rem;
+}
+.homme .logogoogle {
+  width: 12vh;
+  height: auto;
+  margin-left: 1rem;
+  border-radius: 10px;
+}
+.homme .buttoncard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+}
+.homme .buttoncard .register {
+  width: 90%;
+  height: 15vh;
+  border-radius: 10px;
+  border: none;
+  margin: 1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: larger;
+  color: #541554;
+  font-weight: lighter;
+}
+.homme .register_2 {
+  display: flex;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 90%;
+  height: 15vh;
+  border-radius: 10px;
+  border: none;
+  background-color: #4285F4;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: whitesmoke;
+  font-size: larger;
+  margin: 3px;
+  text-align: center;
+}
+.homme .register_2 .googlebutton {
+  width: 73%;
+  height: auto;
+  text-align: center;
+}
+.homme .videopicture {
+  width: 100%;
+  height: 140vw;
+  display: flex;
+}
+.homme .videopicture img {
+  width: 100%;
+  height: auto;
+}
+
+.mainbranch {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 236vw;
+  height: auto;
+  background-color: #F4EDE4;
+  z-index: -1;
+}
+.mainbranch .companys {
+  margin-top: 10rem;
+  padding: 1px;
+  width: 200vh;
+  height: 30%;
+}
+.mainbranch .companys .companys__h {
+  margin-top: 1rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: x-large;
+  text-align: center;
+  text-overflow: clip;
+  text-rendering: optimizeLegibility;
+  font-weight: lighter;
+}
+.mainbranch .companys .companys__logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  height: auto;
+}
+.mainbranch .companys .companys__logo img {
+  width: 25%;
+  height: auto;
+}
+
+#nw {
+  width: 40%;
+}
+
+.videocontent {
+  display: flex;
+  background-color: #F4EDE4;
+  width: 100%;
+  height: 100%;
+}
+.videocontent .video__2 {
+  display: flex;
+  width: 100%;
+  height: auto;
+}
+.videocontent .video__2 img {
+  z-index: 10;
+  margin-top: 5rem;
+  width: 100%;
+}
+
+.team {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: wrap;
+  width: 100%;
+  height: auto;
+  background-color: #F4EDE4;
+}
+.team .teamcard {
+  padding: 1rem;
+}
+.team .teamcard h6 {
+  margin-bottom: 3rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: 15vw;
+}
+
+p {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  color: black;
+  font-size: 10vw;
+  font-weight: lighter;
+  text-rendering: optimizeLegibility;
+}
+
+.enlace {
+  width: 100%;
+  height: auto;
+  margin-top: 4px;
+}
+.enlace .enlace__platform {
+  color: #1264A3;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: 10vw;
+}
+
+.video__3 {
+  display: flex;
+  background-color: #F4EDE4;
+  width: 100%;
+  height: 100%;
+}
+.video__3 img {
+  width: 100%;
+}
+
+.team__2 {
+  background-color: #F4EDE4;
+  width: 100%;
+  height: auto;
+}
+
+.video__4 {
+  display: flex;
+  background-color: #F4EDE4;
+  width: 100%;
+  height: auto;
+}
+.video__4 img {
+  width: 100%;
+}
+
+.team__3 {
+  display: flex;
+  background-color: #F4EDE4;
+  width: 100%;
+  height: 50%;
+}
+
+.team__white {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: wrap;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+}
+.team__white .team__white--config {
+  width: 100%;
+}
+.team__white h6 {
+  margin-top: 10rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: 15vw;
+  text-align: center;
+}
+.team__white .team__white--p {
+  margin-top: 5rem;
+  width: 100%;
+  text-align: center;
+}
+
+.buttoncard__2 {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+.buttoncard__2 .buttoncard__2--active {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: 15vh;
+  border-radius: 10px;
+  border: none;
+  background-color: #541554;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: whitesmoke;
+  font-size: xx-large;
+  margin: 3px;
+  text-align: center;
+}
+
+button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: 15vh;
+  border-radius: 10px;
+  border-color: #541554;
+  border-width: 3px;
+  background-color: whitesmoke;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #541554;
+  font-size: xx-large;
+  margin: 3px;
+  text-align: center;
+}
+
+.porcentajes {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 5rem;
+  width: 100%;
+  height: auto;
+}
+.porcentajes .porcentajes__column {
+  color: #541554;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: 20vh;
+}
+
+.porcentajes__column--paragraph {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: xx-large;
+  text-align: center;
+  padding: 2rem;
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+
+.video__publi {
+  width: 100%;
+  height: 124vw;
+  display: flex;
+  margin-top: 10rem;
+}
+.video__publi .video__publi--active {
+  width: 97%;
+  height: 100%;
+  border-top-right-radius: 500px;
+  border-bottom-right-radius: 500px;
+}
+
+.red {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.red .red__card {
+  width: 70%;
+  height: auto;
+  text-align: justify;
+  margin-top: 6rem;
+  display: flex;
+  flex-direction: column;
+}
+.red .red__card .red__cardp {
+  font-size: 9vh;
+  font-style: italic;
+  color: gray;
+  margin-right: 2rem;
+  margin-left: 2rem;
+}
+
+.name {
+  text-align: left;
+  margin-top: 2rem;
+  font-size: 5vh;
+}
+
+.name__span {
+  font-size: 5vh;
+}
+
+.link__cliente {
+  text-align: left;
+  font-size: 9vh;
+  text-decoration: none;
+  color: #1264A3;
+}
+
+.pcard {
+  margin-top: 5rem;
+  width: 100%;
+  height: auto;
+}
+.pcard .pcard__p {
+  text-align: center;
+  color: gray;
+  font-size: 5vh;
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+
+.crd {
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+.crd .card__s {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #F4EDE4;
+}
+.crd .card__s .card__slac {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 58%;
+  height: 100%;
+  background-color: whitesmoke;
+  margin-bottom: 4rem;
+}
+.crd .card__s .card__slac .card__slack {
+  margin-top: 1rem;
+  width: 86%;
+  height: 60%;
+}
+
+.out__tittle {
+  font-size: 10vh;
+  text-align: center;
+  margin-top: 3rem;
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+  margin-left: 1rem;
+}
+
+.inside__tittle {
+  font-size: 7vh;
+  text-align: left;
+  margin-left: 3rem;
+}
+
+.funciones {
+  text-align: left;
+  font-size: xx-large;
+  width: 80%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.examina {
+  text-align: left;
+  font-size: 5vh;
+  width: 90%;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  color: #1264A3;
+}
+
+.card__arc {
+  display: flex;
+  width: 100%;
+}
+
+.back {
+  background-color: white;
+  display: flex;
+  width: 100%;
+  height: 100vh;
+}
+.back .purplecard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 90%;
+  background-color: #541554;
+  border-bottom-left-radius: 334em 76em;
+  border-bottom-right-radius: 434em 80em;
+}
+.back .purplecard .button__try {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: flex-start;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: 15vh;
+  margin-bottom: 1rem;
+}
+
+.button__talk {
+  display: flex;
+  flex-direction: flex-start;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: 15vh;
+  border-radius: 10px;
+  border-color: white;
+  border-width: 3px;
+  background-color: #541554;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  font-size: xx-large;
+  margin: 3px;
+  text-align: center;
+  margin-bottom: 6rem;
+}
+
+.tittle__welcome {
+  display: flex;
+  justify-content: flex-start;
+  color: white;
+  font-size: 10vh;
+  text-align: center;
+  width: 70%;
+  margin-top: 4rem;
+}
+
+.foot {
+  display: flex;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 236vw;
+  height: auto;
+}
+.foot .foot__card {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.logo__footer {
+  margin-bottom: 5rem;
+  width: 100%;
+  margin-left: 2rem;
+}
+.logo__footer .logo__footer--slack {
+  width: 10%;
+}
+
+.listas {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: x-large;
+  width: 25%;
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+}
+
+.copyright {
+  width: 96%;
+  height: auto;
+  margin-left: 1rem;
+  display: flex;
+  border-top: 2px solid gray;
+}
+.copyright .lista {
+  font-size: xx-large;
+  margin-left: 1rem;
+  margin-top: 3rem;
+}
+
+.link__footer {
+  color: #1264A3;
+  margin-bottom: 1rem;
+}
+
+.logos__footer {
+  display: flex;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  height: auto;
+}
+.logos__footer .logos__footer--redes {
+  width: 7%;
+  height: auto;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.copyp {
+  font-size: x-large;
+  text-align: center;
+  margin: 1rem;
+}/*# sourceMappingURL=styles.css.map */
